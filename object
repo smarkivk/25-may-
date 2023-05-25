@@ -1,0 +1,22 @@
+public class MyClass {
+    private int myVariable;
+
+    public MyClass(int value) {
+        myVariable = value;
+    }
+
+    public int getMyVariable() { // getter
+        return myVariable;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an object of MyClass
+        MyClass myObject = new MyClass(42 ; // object 
+
+        // Access the object's methods and variables
+        int value = myObject.getMyVariable();
+        System.out.println("MyVariable value: " + value);
+    }
+}
